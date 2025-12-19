@@ -105,7 +105,7 @@ def load_sn_config():
     """加载 SN 码归属配置"""
     if not os.path.exists(SN_FILE):
         initial_sn_config = {
-            "731082412550438910": "manager_user"
+            "114514": "manager_user"
         }
         save_sn_config(initial_sn_config)
         return initial_sn_config
