@@ -941,7 +941,7 @@ def add_new_manager():
     config = load_config()
     new_username = request.form.get("new_username")
     new_password = request.form.get("new_password")
-    new_max_apps = request.form.get("new_max_apps", 10)
+    new_max_apps = request.form.get("new_max_apps", 114514)
 
     if new_username in config["users"]:
         return redirect(url_for('super_admin_page', message=f"错误：用户名 {new_username} 已存在。"))
@@ -985,7 +985,7 @@ def add_sn_owner():
 
     return redirect(url_for('super_admin_page', message=f"SN 码 {sn_code} 已成功分配给 {sn_owner}。"))
 
-# 🌟 新增路由：超级管理员解除 SN 归属绑定 (V19)
+# 
 @app.route("/super_admin_config_1223/delete_sn_owner", methods=["POST"])
 @has_role("super")
 def delete_sn_owner():
