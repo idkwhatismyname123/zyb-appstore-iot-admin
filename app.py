@@ -179,11 +179,11 @@ def load_apps():
     if not os.path.exists(DATA_FILE):
         # 初始应用列表，确保有 allowedSn 字段
         initial_data = [{
-            "appId": "mt-001", "id": 602750, "name": "MT", "appName": "MT管理器",
+            "appId": "mt-001", "id": 602750, "name": "114514", "appName": "114514",
             "packageName": "com.mt.manager",
-            "versionName": "1.0", "versionCode": "1", "downloadUrl": "http://154.9.228.196:8080/static/mt.apk",
+            "versionName": "1.0", "versionCode": "1", "downloadUrl": "http://127.0.0.1/static/114514.apk",
             "iconUrl": DEFAULT_ICON_URL,
-            "md5": "c783de55addbf3cf3606f825fd784aee",
+            "md5": "114514",
             "size": "259634232", "updateTime": str(int(time.time() * 1000)), "desc": "强大的文件管理和编辑工具。",
             "status": 1, "category": "工具", "publisher": "个人开发者", "tags": [{"name":"通用","bgColor":"#FFF2D0","textColor":"#C1A161"}],
             "version": "1.0", "score": 5.0, "changelog": "优化了UI界面，提升了稳定性。",
