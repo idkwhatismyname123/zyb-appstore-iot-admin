@@ -1,0 +1,32 @@
+[
+    {
+        "appId": "mt-001",
+        "id": 602750,
+        "appName": "114514",
+        "packageName": "com.mt.manager",
+        "versionName": "1.0",
+        "versionCode": "1",
+        "downloadUrl": "",
+        "iconUrl": "https:\/\/drive.idkwhatismyname.space\/hFxt8p2mnpmLhBS1.png",
+        "md5": "114514",
+        "size": "259634232",
+        "updateTime": "1787005163934",
+        "desc": "强大的文件管理和编辑工具。",
+        "status": 1,
+        "category": "工具",
+        "publisher": "个人开发者",
+        "tags": [
+            {
+                "name": "通用",
+                "bgColor": "#FFF2D0",
+                "textColor": "#C1A161"
+            }
+        ],
+        "version": "1.0",
+        "score": 5,
+        "changelog": "优化了UI界面，提升了稳定性。",
+        "enName": "",
+        "allowedSn": [],
+        "owner": "manager_user"
+    }
+]

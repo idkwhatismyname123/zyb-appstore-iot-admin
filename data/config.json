@@ -1,0 +1,14 @@
+{
+    "users": {
+        "super_admin": {
+            "password": "123456",
+            "role": "super"
+        },
+        "manager_user": {
+            "password": "app_manager_123",
+            "role": "manager",
+            "max_apps": 10,
+            "owns_apps": 0
+        }
+    }
+}
